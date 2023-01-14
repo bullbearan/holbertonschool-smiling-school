@@ -1,0 +1,295 @@
+@font-face {
+  font-family: 'holberton_school-icon';
+  src:  url('./holberton_school-icon.eot?sq4eq4');
+  src:  url('./holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('./holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('./holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('./holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+	--pc: #C271FF;
+}
+
+body,
+button,
+a {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+button:hover, button:active {
+	opacity: 0.9 !important;
+}
+
+button:focus {
+	outline: none;
+}
+
+a:hover, a:active, a.text-primary:hover {
+	color: var(--pc) !important;
+}
+
+.underline::after {
+	content: '';
+	background-color: white;
+	display: block;
+	width: 50px;
+	height: 2px;
+	border-radius: 999px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translateX(-50%);
+}
+
+.bg-primary {
+	background-color: var(--pc) !important;
+}
+
+.bg-dark {
+	background-color: #071629 !important;
+}
+
+.text-primary {
+	color: var(--pc) !important;
+}
+
+.text-dark {
+	color: #071629 !important;
+}
+
+.btn-primary {
+	font-size: 14px !important;
+	background-color: var(--pc) !important;
+	width: 164px !important;
+	height: 44px !important;
+	border: 0;
+	border-radius: 999px !important;
+	box-shadow: 0 2px 20px 0 hsl(0, 0%, 0%, 0.5) !important;
+}
+
+.coiny-font-family {
+	font-family: 'Coiny', cursive;
+}
+
+.op-30 {
+	opacity: 0.3;
+}
+
+.navbar-toggler-icon::before {
+	content: '';
+	background-color: white !important;
+	display: block !important;
+	width: 20px !important;
+	height: 2px !important;
+	border-radius: 999px !important;
+	position: absolute;
+	top: 5px;
+}
+
+.navbar-toggler-icon {
+	background-color: white !important;
+	display: block !important;
+	width: 13px !important;
+	height: 2px !important;
+	border-radius: 999px !important;
+	position: relative;
+}
+
+.navbar-toggler-icon::after {
+	content: '';
+	background-color: white !important;
+	display: block !important;
+	width: 20px !important;
+	height: 2px !important;
+	border-radius: 999px !important;
+	position: absolute;
+	bottom: 5px;
+}
+
+.homepage-h1 {
+	font-size: clamp(61px, 17vw,120px);
+}
+
+.pricing-h1-fz {
+	font-size: 60px;
+}
+
+.hero-subtitle {
+	width: 254px;
+}
+
+.hero-p {
+	font-size: 32px;
+	margin-top: 168px;
+}
+
+.fz {
+	font-size: 15px;
+}
+
+.price-hero-fz {
+	font-size: 32px;
+}
+
+.rounded-circle {
+	border-radius: 50%;
+}
+
+.hero-name, .price-row-fz {
+	font-size: 18px !important;
+}
+
+.carousel-quote-fz {
+	font-size: 22px;
+}
+
+.white-left-arrow {
+	background-image: url(./images/arrow_white_left.png);
+}
+
+.white-right-arrow {
+	background-image: url(./images/arrow_white_right.png);
+}
+
+.left-arrow, .right-arrow {
+	width: 29.04px;
+	height: 62.67px;
+}
+
+.play-btn {
+	inset: 0;
+	cursor: pointer;
+}
+
+.card-text, .faq-p {
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+.star-size {
+	width: 15px;
+	height: 15px;
+}
+
+.left-black-arrow {
+	background-image: url(./images/arrow_black_left.png);
+}
+
+.right-black-arrow {
+	background-image: url(./images/arrow_black_right.png);
+}
+
+.footer-nav {
+	width: 130px;
+}
+
+.facebook, .twitter, .instagram{
+	line-height: 0;
+	width: 30px;
+}
+
+.facebook::before, .twitter::before, .instagram::before {
+	font-family: 'holberton_school-icon';
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.facebook::before {
+	content: "\e908";
+}
+
+.twitter::before {
+	content: "\e90f";
+}
+
+.instagram::before {
+	content: "\e90a";
+}
+
+.footer-p-fz {
+	font-size: 12px;
+}
+
+.mw-sm-90 {
+	max-width: 90%;
+}
+
+.check::before {
+	content: "\e905";
+	font-family: 'holberton_school-icon';
+	font-size: 28px;
+	color: #82D24F;
+}
+
+.label-fz {
+	font-size: 12px;
+}
+
+.search-icon {
+	top: 35px;
+	left: 10px;
+}
+
+.search-icon::before {
+	content: "\e912";
+	font-size: 20px;
+	font-family: 'holberton_school-icon';
+}
+
+.form-control::placeholder {
+	font-weight: light;
+	color: white;
+	padding-left: 34px;
+	opacity: 0.5;
+}
+
+.form-control {
+	font-size: 23px;
+	background-color: #d195ff;
+	border: 0;
+	border-radius: 0;
+}
+
+.form-control:focus {
+	background-color: #d195ff;
+}
+
+.dropdown-toggle::after {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+}
+
+.faq-fz {
+	font-size: 60px;
+}
+
+.price-fz {
+	font-size: 44px;
+}
+
+.price-period {
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+.period-fz {
+	font-size: 12px;
+}
+
+.hr {
+	background-color: #384453;
+}
+
+@media (width <= 575px) {
+	.uplift {
+		margin-bottom: 230px;
+	}
+}
